@@ -1,0 +1,28 @@
+.general{
+    background-color: gold;
+}
+.row {
+  display: flex;
+}
+.col {
+  flex-grow: 1;
+  margin: right 10 px;
+}
+input {
+  display: block;
+  margin: 5px;
+}
+h1 {
+  font-weight: bold;
+  background-color: violet;
+}
+.dbz {
+  color: red;
+}
+.dragon-ball {
+  color: blue;
+}
+p{
+  width: 68%;
+}
+

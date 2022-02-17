@@ -1,0 +1,24 @@
+<div class="general">
+  <h1>
+    Vamos a realizar una lista de personajes de <span class="dbz"> DBZ</span>
+  </h1>
+  <hr />
+
+  <h2 id="SecondTitle">
+    Con DBZ me refiero al glorioso
+    <span class="dragon-ball">Dragon ball z</span>
+  </h2>
+
+  <div class="row">
+    <div class="col">
+      <app-personajes [personajes]="personajes"></app-personajes>
+    </div>
+    <div class="col">
+      <app-agregar [nuevo]="nuevo"
+                   (onNuevoPersonaje)="agregarNuevoPersonaje($event)">
+      </app-agregar>
+    </div>
+  </div>
+  <p>he decidido hacer esta lista sobre mis personajes favoritos de dragon ball z 
+      para mostrar con una app sencilla varios conceptos de angular juntos como por ejemplo los arreglos, un poco de directivas, las interfaces y la comunicacion entre componentes a traves de inputs y outputs. </p>
+</div>
